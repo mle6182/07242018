@@ -13,5 +13,7 @@ anova = anova(lm(dat$Value ~ dat$Run))
 
 #
 PostHoc = pairwise.t.test(dat$Value, dat$Rep, p.adj="bonferroni")
-PostHoc
 
+
+
+#These are additional changes to the R script
